@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Message from "./Message.jsx"
+import mui, {Card, List } from 'material-ui'
+
 export default class MessageList extends React.Component {
     constructor(props) {
         super(props);
@@ -17,7 +19,11 @@ export default class MessageList extends React.Component {
             );
         });
         return (
-            <div>{messageNodes}</div>
+            <Card>
+                <List>
+                    {messageNodes}
+                </List>
+            </Card>
         )
     }
 }
