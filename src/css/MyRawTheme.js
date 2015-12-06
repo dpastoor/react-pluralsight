@@ -1,7 +1,8 @@
 /**
  *
  * Created by devin on 12/6/15.
- */
+ * more info at http://www.material-ui.com/#/customization/themes
+ *
 let Colors = require('material-ui/lib/styles/colors');
 let ColorManipulator = require('material-ui/lib/utils/color-manipulator');
 let Spacing = require('material-ui/lib/styles/spacing');

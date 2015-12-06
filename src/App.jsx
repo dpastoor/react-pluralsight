@@ -4,9 +4,10 @@ import './css/styles.css'
 import mui, {AppBar, Styles} from 'material-ui'
 import MessageList from './components/MessageList.jsx'
 
-const ThemeManager = Styles.ThemeManager
+const ThemeManager = Styles.ThemeManager;
 const MyRawTheme = require('./css/MyRawTheme');
-console.log(MyRawTheme)
+
+
 export default class App extends React.Component {
   constructor(props) {
     super(props);
