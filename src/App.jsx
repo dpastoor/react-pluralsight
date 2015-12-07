@@ -4,6 +4,7 @@ import './css/styles.css'
 import mui, {AppBar, Styles} from 'material-ui'
 import MessageList from './components/MessageList.jsx'
 import ChannelList from './components/ChannelList.jsx'
+import MessageBox from './components/MessageBox.jsx'
 
 const ThemeManager = Styles.ThemeManager;
 const MyRawTheme = require('./css/MyRawTheme');
@@ -42,6 +43,7 @@ export default class App extends React.Component {
                 <ChannelList />
                 <MessageList> </MessageList>
             </div>
+            <MessageBox />
         </div>
     );
   }
