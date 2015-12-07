@@ -30,9 +30,18 @@ export default class App extends React.Component {
   render() {
     return (
         <div>
-          <AppBar title="Awesome Chat App"></AppBar>
-          <MessageList> </MessageList>
-          <ChannelList />
+
+            <AppBar title="Awesome Chat App"></AppBar>
+            <div style={{
+                display: 'flex',
+                flexFlow: 'row wrap',
+                maxWidth: 1200,
+                width: '100%',
+                margin: '30px auto 30px'
+                }}>
+                <ChannelList />
+                <MessageList> </MessageList>
+            </div>
         </div>
     );
   }

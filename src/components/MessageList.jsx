@@ -19,7 +19,10 @@ export default class MessageList extends React.Component {
             );
         });
         return (
-            <Card>
+            <Card style={{
+            flexGrow: 2,
+            marginLeft: 30
+            }}>
                 <List>
                     {messageNodes}
                 </List>
