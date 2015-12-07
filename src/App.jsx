@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './css/styles.css'
 import mui, {AppBar, Styles} from 'material-ui'
 import MessageList from './components/MessageList.jsx'
+import ChannelList from './components/ChannelList.jsx'
 
 const ThemeManager = Styles.ThemeManager;
 const MyRawTheme = require('./css/MyRawTheme');
@@ -31,6 +32,7 @@ export default class App extends React.Component {
         <div>
           <AppBar title="Awesome Chat App"></AppBar>
           <MessageList> </MessageList>
+          <ChannelList />
         </div>
     );
   }

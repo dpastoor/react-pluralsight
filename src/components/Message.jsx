@@ -1,7 +1,7 @@
 import React from 'react';
 import mui, {ListItem, Avatar} from 'material-ui'
 
-export default class MessageList extends React.Component {
+export default class Message extends React.Component {
     constructor(props) {
         super(props);
     }
